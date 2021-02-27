@@ -13,13 +13,27 @@
   }
 }
 
+.name {
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.intro {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }

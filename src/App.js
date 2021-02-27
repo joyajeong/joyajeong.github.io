@@ -5,15 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Joya</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 className="name">Joya Jeong</h1>
+        <div className="intro">I'm a UNSW Information Systems/Commerce student that is an aspiring product
+  and UI designer. Check out some of my work below!</div>
       </header>
     </div>
   );
