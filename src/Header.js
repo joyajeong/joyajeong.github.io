@@ -14,7 +14,7 @@ export default function Header() {
       <div>
         <ul className="nav">
           <li>
-            <Link to="/" class="active">Home</Link>
+            <Link to="/" className="active">Home</Link>
           </li>
           <li>
             <Link to="/contact">Contact Me</Link>
