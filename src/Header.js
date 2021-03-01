@@ -10,7 +10,7 @@ import Contact from "./Contact";
 
 export default function Header() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <ul className="nav">
           <li>
