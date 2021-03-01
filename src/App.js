@@ -1,13 +1,7 @@
 import React from "react";
-import Grid from "./Grid.js";
-import Header from "./Header.js";
+import Grid from "./Grid";
+import Header from "./Header";
 import './style.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 function App() {
   return (

@@ -1,12 +1,12 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Home from "./Home.js";
-import Contact from "./Contact.js";
+import Home from "./Home";
+import Contact from "./Contact";
 
 export default function Header() {
   return (

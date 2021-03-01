@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "./Grid.js";
+import Grid from "./Grid";
 
 function Home() {
   return (
