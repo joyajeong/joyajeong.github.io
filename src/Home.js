@@ -1,19 +1,13 @@
 import React from "react";
 import Grid from "./Grid";
 import './style.css';
-import UniqloPage from "./UniqloPage";
 import joyajeong from "./joyajeong.jpg";
-import {
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 function Home() {
   return (
       <div className="App-header">
         <div className="profile-picture-crop">
-          <img className="profile-picture" src={joyajeong} />
+          <img className="profile-picture" src={joyajeong} alt="joya jeong picture" />
         </div>
         <h1 className="name">Joya Jeong</h1>
         <div className="intro">

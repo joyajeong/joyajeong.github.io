@@ -2,15 +2,9 @@ import React from "react";
 import './style.css';
 import nutri from "./nutri.png";
 import uniqlo from "./uniqlo.png";
-import UniqloPage from "./UniqloPage";
-import NutriPage from "./NutriPage";
 import {
-  HashRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
-import Home from "./Home";
 
 function Grid() {
   return (
