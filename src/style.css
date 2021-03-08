@@ -99,24 +99,23 @@
   text-decoration: none;
 }
 
-.nav li a.active {
-  color: #282c34;
-  background-color: #c4c9d2;
+.nav li a:hover {
   border-color: #c4c9d2;
   border-style: solid;
   border-width: thin;
-}
-
-.nav li a:hover:not(.active) {
-  border-color: #c4c9d2;
-  border-style: solid;
-  border-width: thin;
-  position: absolute;
 }
 
 .nav li a:active {
   color: white;
   background-color: #282c34;
+}
+
+.nav li a:focus {
+  color: #282c34;
+  background-color: #c4c9d2;
+  border-color: #c4c9d2;
+  border-style: solid;
+  border-width: thin;
 }
 
 .grid-container {

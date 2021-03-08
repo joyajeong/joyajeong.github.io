@@ -1,17 +1,35 @@
 import React from "react";
 import {
-  Link
+  Link,
+  NavLink
 } from "react-router-dom";
 
 export default function Header() {
+  console.log("header");
   return (
       <div>
         <ul className="nav">
           <li>
-            <Link to='/' className="active">Home</Link>
+            <NavLink exact to='/'
+              activeStyle={{
+                color: '#282c34',
+                backgroundColor: '#c4c9d2',
+                borderColor: '#c4c9d2',
+                borderStyle: 'solid',
+                borderWidth: 'thin'
+              }}
+            >Home</NavLink>
           </li>
           <li>
-            <Link to='/contact'>Contact Me</Link>
+            <NavLink to='/contact'
+              activeStyle={{
+                color: '#282c34',
+                backgroundColor: '#c4c9d2',
+                borderColor: '#c4c9d2',
+                borderStyle: 'solid',
+                borderWidth: 'thin'
+              }}
+            >Contact Me</NavLink>
           </li>
         </ul>
       </div>

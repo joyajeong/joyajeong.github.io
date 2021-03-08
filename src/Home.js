@@ -4,6 +4,7 @@ import './style.css';
 import joyajeong from "./joyajeong.jpg";
 
 function Home() {
+  document.title = "Joya Jeong's Portfolio"
   return (
       <div className="App-header">
         <div className="profile-picture-crop">

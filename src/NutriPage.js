@@ -12,6 +12,7 @@ import four from './nutriPics/4.png';
 import five from './nutriPics/5.png';
 
 function NutriPage() {
+  document.title = "Nutri App Prototype";
   return (
     <div className="project">
       <h2 className="project-title">Nutri App Prototype</h2>

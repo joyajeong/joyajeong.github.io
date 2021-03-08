@@ -23,6 +23,7 @@ import fifteen from "./uniqloPics/15.jpg";
 import sixteen from "./uniqloPics/16.jpg";
 
 function UniqloPage() {
+  document.title = "UNIQLO App Redesign";
   return (
     <div className="project">
       <h2 className="project-title">UNIQLO App Redesign</h2>

@@ -1,9 +1,10 @@
 import React from "react";
 
 function Contact() {
+  document.title = "Contact Me";
+  console.log(window.location.pathname);
   return (
     <div className="contact">
-      {console.log("contact")}
       Connect with me on&ensp;
         <a href="https://www.linkedin.com/in/joyajeong/" target="_blank">
           LinkedIn
