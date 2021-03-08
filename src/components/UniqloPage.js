@@ -1,27 +1,27 @@
-import './style.css';
+import '../style.css';
 import {
   Link,
   NavLink
 } from "react-router-dom";
 import React from 'react';
-import figma from './figma.png';
-import uniqlo from "./uniqlo.png";
-import one from "./uniqloPics/1.jpg";
-import two from "./uniqloPics/2.jpg";
-import three from "./uniqloPics/3.jpg";
-import four from "./uniqloPics/4.jpg";
-import five from "./uniqloPics/5.jpg";
-import six from "./uniqloPics/6.jpg";
-import seven from "./uniqloPics/7.jpg";
-import eight from "./uniqloPics/8.jpg";
-import nine from "./uniqloPics/9.jpg";
-import ten from "./uniqloPics/10.jpg";
-import eleven from "./uniqloPics/11.jpg";
-import twelve from "./uniqloPics/12.jpg";
-import thirteen from "./uniqloPics/13.jpg";
-import fourteen from "./uniqloPics/14.jpg";
-import fifteen from "./uniqloPics/15.jpg";
-import sixteen from "./uniqloPics/16.jpg";
+import figma from '../images/figma.png';
+import uniqlo from "../images/uniqlo.png";
+import one from "../uniqloPics/1.jpg";
+import two from "../uniqloPics/2.jpg";
+import three from "../uniqloPics/3.jpg";
+import four from "../uniqloPics/4.jpg";
+import five from "../uniqloPics/5.jpg";
+import six from "../uniqloPics/6.jpg";
+import seven from "../uniqloPics/7.jpg";
+import eight from "../uniqloPics/8.jpg";
+import nine from "../uniqloPics/9.jpg";
+import ten from "../uniqloPics/10.jpg";
+import eleven from "../uniqloPics/11.jpg";
+import twelve from "../uniqloPics/12.jpg";
+import thirteen from "../uniqloPics/13.jpg";
+import fourteen from "../uniqloPics/14.jpg";
+import fifteen from "../uniqloPics/15.jpg";
+import sixteen from "../uniqloPics/16.jpg";
 
 function UniqloPage() {
   document.title = "UNIQLO App Redesign";

@@ -1,16 +1,16 @@
-import './style.css';
+import '../style.css';
 import {
   Link,
   NavLink
 } from "react-router-dom";
 import React from 'react';
-import nutri from './nutri.png';
-import adobexd from './adobexd.png';
-import one from './nutriPics/1.png';
-import two from './nutriPics/2.png';
-import three from './nutriPics/3.png';
-import four from './nutriPics/4.png';
-import five from './nutriPics/5.png';
+import nutri from '../images/nutri.png';
+import adobexd from '../images/adobexd.png';
+import one from '../nutriPics/1.png';
+import two from '../nutriPics/2.png';
+import three from '../nutriPics/3.png';
+import four from '../nutriPics/4.png';
+import five from '../nutriPics/5.png';
 
 function NutriPage() {
   document.title = "Nutri App Prototype";

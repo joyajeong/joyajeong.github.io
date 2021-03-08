@@ -1,7 +1,7 @@
 import React from "react";
-import './style.css';
-import nutri from "./nutri.png";
-import uniqlo from "./uniqlo.png";
+import '../style.css';
+import nutri from "../images/nutri.png";
+import uniqlo from "../images/uniqlo.png";
 import {
   Link
 } from "react-router-dom";

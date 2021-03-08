@@ -1,7 +1,7 @@
 import React from "react";
-import Grid from "./Grid";
-import './style.css';
-import joyajeong from "./joyajeong.jpg";
+import Grid from "../components/Grid";
+import '../style.css';
+import joyajeong from "../images/joyajeong.jpg";
 
 function Home() {
   document.title = "Joya Jeong's Portfolio"
