@@ -36,9 +36,28 @@ function UniqloPage() {
       <div className="info">
         I worked as a retail assistant at UNIQLO for a couple years and I was able to
         observe how consumers used the app and the difficulties they experienced
-          while using their shopping and membership services.
-        <br />
+          while using the shopping and membership services.
           <br />
+          <br />
+          Main problems:
+          <ol>
+            <li>Customers expressed that the app redirected them to the
+            website within the app when shopping, instead of an in-app shopping experience.
+            </li>
+            <li>The sign-up process in the app was confusing and customers often
+            did not reach the end of the sign-up process as they were not sure
+            when the process was completed.
+          </li>
+          </ol>
+          <p>Process:</p>
+          After defining the problem, I collected information
+          from competing fashion retailers.
+          <br />
+          <br />
+          From personal experience, I enjoyed
+          using Asos and believe that they had an excellent user experience.
+          Therefore, I studied how they designed the user journey in the shopping
+          process.
           Using these observations, I have redesigned some of the user journeys
           on the app.
           <br />
@@ -56,7 +75,8 @@ function UniqloPage() {
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={two} alt="Home screen" />
-          Home screen
+          Home screen - Simplified the home page and reduced the amount of visual
+          stimuli, drawing the focus on the shipping promotion.
         </div>
 
         <div className="image-with-caption">
@@ -66,27 +86,31 @@ function UniqloPage() {
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={four} alt="Profile - Coupons page (logged in)" />
-          Profile - Coupons page (logged in)
+          Profile - Coupons page (logged in) - Coupon's value and expiration date
+          is clearly displayed.
         </div>
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={six} alt="Profile - Coupons page (not logged in)" />
-          Profile - Coupons page (not logged in)
+          Profile: Coupons page (not logged in)
         </div>
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={seven} alt="Profile - Purchase history" />
-          Profile - Purchase history
+          Profile: Purchase history
         </div>
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={five} alt="Saved items" />
-          Saved items
+          Saved items - 'Move to bag' buttons are eye-catching to encourage
+          customers to purchase them.
         </div>
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={eight} alt="Bag" />
-          Bag
+          Bag - 'Save for later' buttons are not noticeable and there is no
+          'Save all for later' button to encourage customers to purchase items in
+          their bag.
         </div>
 
         <div className="image-with-caption">
@@ -101,7 +125,9 @@ function UniqloPage() {
 
         <div className="image-with-caption">
           <img className="gallery-resize" src={sixteen} alt="Product - Size and Colour not selected" />
-          Product - Size and Colour selected
+          Product - Size and Colour selected - Once the options are selected,
+          users receive feedback through the red outlining and 'Add to bag' button
+          becoming red.
         </div>
 
         <div className="image-with-caption">
@@ -116,13 +142,27 @@ function UniqloPage() {
           when attempting to sign-up.
           <br />
           <br />
-          Despite this being paramount to
+          Despite sign-ups being paramount to
           increasing customer loyalty, many
           customers felt frustrated with the lack of feedback between the steps
           and the lack of confirmation when the sign-up process was completed.
           <br />
           <br />
           I have designed a simpler sign-up process to address this issue.
+          <ul>
+            <li>
+              The progression bar at the bottom of the screen provides feedback for the
+              customers.
+            </li>
+            <li>
+              The step-by-step process with only a couple inputs at a time reduce
+              the likelihood of users overlooking and forgetting a step.
+            </li>
+            <li>
+              There is clear confirmation that the sign-up process has been successful.
+            </li>
+          </ul>
+
         </div>
         <div className="image-with-caption">
           <img className="gallery-resize" src={ten} alt="10" />
