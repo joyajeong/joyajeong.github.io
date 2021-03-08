@@ -250,6 +250,11 @@
   min-height: 100vh;
 }
 
+a {
+  color: #98e3a5;
+  text-decoration: none;
+}
+
 .contact-content {
   font-size: 50px;
   text-align: left;

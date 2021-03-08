@@ -5,29 +5,25 @@ import {
 } from "react-router-dom";
 
 export default function Header() {
+  const style = {
+    color: '#282c34',
+    backgroundColor: '#c4c9d2',
+    borderColor: '#c4c9d2',
+    borderStyle: 'solid',
+    borderWidth: 'thin'
+  }
+
   return (
       <div>
         <ul className="nav">
           <li>
             <NavLink exact to='/'
-              activeStyle={{
-                color: '#282c34',
-                backgroundColor: '#c4c9d2',
-                borderColor: '#c4c9d2',
-                borderStyle: 'solid',
-                borderWidth: 'thin'
-              }}
+              activeStyle={style}
             >Home</NavLink>
           </li>
           <li>
             <NavLink to='/contact'
-              activeStyle={{
-                color: '#282c34',
-                backgroundColor: '#c4c9d2',
-                borderColor: '#c4c9d2',
-                borderStyle: 'solid',
-                borderWidth: 'thin'
-              }}
+              activeStyle={style}
             >Contact Me</NavLink>
           </li>
           <li>
