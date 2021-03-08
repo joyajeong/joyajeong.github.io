@@ -1,6 +1,7 @@
 import './style.css';
 import {
-  Link
+  Link,
+  NavLink
 } from "react-router-dom";
 import React from 'react';
 import nutri from './nutri.png';
@@ -71,7 +72,19 @@ function NutriPage() {
         </div>
 
       </div>
-      <Link to='/'>Take me home</Link>
+      <ul className="nav">
+        <li>
+          <NavLink exact to='/'
+            activeStyle={{
+              color: '#282c34',
+              backgroundColor: '#c4c9d2',
+              borderColor: '#c4c9d2',
+              borderStyle: 'solid',
+              borderWidth: 'thin'
+            }}
+          >Take me home</NavLink>
+        </li>
+      </ul>
 
     </div>
   );
