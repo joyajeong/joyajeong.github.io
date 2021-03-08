@@ -243,14 +243,20 @@
 }
 
 .contact {
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  width: 50%;
-  font-size: 50px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
 }
 
-a {
-  color: #91b3d9;
+.contact-content {
+  font-size: 50px;
+  text-align: left;
+  width: 50%;
+}
+
+.footer {
+  margin-top: 70px;
+  bottom: 0;
 }

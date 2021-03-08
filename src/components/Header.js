@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 
 export default function Header() {
-  console.log("header");
   return (
       <div>
         <ul className="nav">
@@ -30,6 +29,11 @@ export default function Header() {
                 borderWidth: 'thin'
               }}
             >Contact Me</NavLink>
+          </li>
+          <li>
+            <a href="https://github.com/joyajeong/joyajeong.github.io">
+              Github
+            </a>
           </li>
         </ul>
       </div>
