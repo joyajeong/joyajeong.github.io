@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "../components/Grid";
 import '../style.css';
-import joyajeong from "../images/joyajeong.jpg";
+import joyajeong from "../images/profilePic.jpeg";
 
 function Home() {
   document.title = "Joya Jeong's Portfolio"

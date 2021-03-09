@@ -32,8 +32,10 @@
 .profile-picture {
   width: auto;
   height: 450px;
-  margin-left: -42%;
-  margin-top: -65%;
+  margin-left: -69%;
+  margin-top: -69%;
+  transform: scale(0.43,0.43);
+
 
 }
 
