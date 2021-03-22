@@ -197,7 +197,6 @@
   margin: auto;
   padding: 10px;
   border: solid white 0.5px;
-  font-style: italic;
 }
 
 .project {
@@ -266,4 +265,19 @@ a {
 .footer {
   margin-top: 70px;
   bottom: 0;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.subHeading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subHeading2 {
+  font-weight: bold;
 }
