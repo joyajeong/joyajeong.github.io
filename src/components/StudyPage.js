@@ -50,8 +50,7 @@ function StudyPage() {
           <br />
           <br />
           <img className="project-pic-resize" src={unswLanding} alt="UNSW Library Page" />
-          Students either study in common areas which are limited and are rare,
-          or students have to book online.
+          Current booking system
           <br />
           <br />
             <p className="subHeading">Challenges with the current platform and process</p>
@@ -60,11 +59,11 @@ function StudyPage() {
             for confirmation email.
             </li>
             <li>Building levels are prioritized over capacity/type of space
+              <img className="project-pic-resize" src={bookProcess} alt="UNSW Room Booking"/>
             </li>
             <li>Students are unable to view rooms by their equipment e.g. screen,
             power points etc.
             </li>
-            <img className="project-pic-resize" src={bookProcess} alt="UNSW Room Booking"/>
           </ol>
           <p className="heading">Define</p>
           <p className="subHeading">Problem statement </p>
