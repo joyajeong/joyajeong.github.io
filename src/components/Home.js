@@ -6,7 +6,7 @@ import joyajeong from "../images/profilePic.jpeg";
 function Home() {
   document.title = "Joya Jeong's Portfolio"
   return (
-      <div className="App-header">
+      <div className="App-header" id="test">
         <div className="profile-picture-crop">
           <img className="profile-picture" src={joyajeong} alt="joya jeong picture" />
         </div>

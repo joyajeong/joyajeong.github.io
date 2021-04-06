@@ -26,7 +26,7 @@ import sixteen from "../uniqloPics/16.jpg";
 function UniqloPage() {
   document.title = "UNIQLO App Redesign";
   return (
-    <div className="project">
+    <div className="project" id="test">
       <h2 className="project-title">UNIQLO App Redesign</h2>
       <div className="project-created">Feburary 2021</div>
       <img className="logo-resize" src={figma} alt="figma logo"/>

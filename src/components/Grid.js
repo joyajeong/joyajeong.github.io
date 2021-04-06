@@ -9,7 +9,7 @@ import {
 
 function Grid() {
   return (
-    <div className="grid-container">
+    <div className="grid-container" id="test">
         <div className="container">
             <div className="grid-item">
               <Link to='/study@'>

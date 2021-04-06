@@ -27,7 +27,7 @@ import testing from '../studyPics/testing.png';
 function StudyPage() {
   document.title = "Study@ App Prototype";
   return (
-    <div className="project">
+    <div className="project" id="test">
       <h2 className="project-title">Study@ App Prototype</h2>
       <div className="project-created">March 2021</div>
       <img className="logo-resize" src={figma} alt="figma logo"/>
